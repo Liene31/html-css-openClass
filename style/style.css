@@ -64,7 +64,7 @@ h2 {
   text-align: center;
 }
 
-.latest-ptojects-img {
+.latest-projects-img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0.938em;
@@ -172,4 +172,36 @@ nav a:hover {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+/* Media queries */
+
+@media (max-width: 996px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-inner {
+    flex-direction: column;
+    padding: 0 1em;
+    text-align: center;
+  }
+
+  .hero-image {
+    order: -1;
+  }
+
+  .hero-image img {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .latest-projects-img {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
 }
