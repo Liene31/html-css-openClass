@@ -6,7 +6,49 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   font-size: 1rem;
+  color: #f9f8ff;
 }
+
+/* Generic */
+
+h1 {
+  color: #a5b4fc;
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+p {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.1rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+ul {
+  line-height: 1.5;
+}
+
+.cta {
+  padding: 20px 30px;
+  background: linear-gradient(#8e86b5, #acaeed);
+  border-radius: 30px;
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+}
+
+.cta:hover {
+  background: linear-gradient(#696484, #8788ba);
+  cursor: pointer;
+}
+
+/* Index */
 
 header,
 footer {
@@ -21,11 +63,7 @@ footer {
   margin: 0 auto;
 }
 
-.header-logo:hover {
-  opacity: 0.5;
-}
-
-ul {
+nav ul {
   flex-direction: row;
   justify-content: space-between;
   gap: 1.875em;
@@ -44,24 +82,8 @@ ul {
   padding: 0 5em;
 }
 
-.hero h1 {
-  color: #a5b4fc;
-  font-size: 3.438rem;
-  font-weight: 500;
-  margin: 0;
-}
-
 .hero p {
-  font-family: "Manrope", sans-serif;
-  color: #f9f8ff;
-  font-size: 1.1rem;
   padding-bottom: 2.05em;
-}
-
-h2 {
-  font-family: "Manrope", sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
 }
 
 .latest-projects-img {
@@ -135,8 +157,9 @@ a {
   text-decoration: none;
 }
 
-.header-logo a:hover {
-  opacity: 1;
+.header-logo a:hover img {
+  opacity: 0.7;
+  transition: opacity 150ms ease;
 }
 
 nav a {
@@ -145,19 +168,6 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-}
-
-.cta {
-  padding: 20px 30px;
-  background: linear-gradient(#8e86b5, #acaeed);
-  border-radius: 30px;
-  color: #ffffff;
-  font-family: "Manrope", sans-serif;
-}
-
-.cta:hover {
-  background: linear-gradient(#696484, #8788ba);
-  cursor: pointer;
 }
 
 /* Utilities */
@@ -223,4 +233,34 @@ nav a:hover {
   footer {
     padding: 1.25em 1em;
   }
+}
+
+/* À propos */
+
+.main-a-propos {
+  background-color: #1f2039;
+}
+
+.container-a-propos {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+  width: 50%;
+  margin: 0 auto;
+  padding-right: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+.title-a-propos {
+  text-align: center;
+  padding: 0.9em 0 0.6em 0;
+}
+
+.subheading-a-propos {
+  padding: 0.8em 0;
+}
+
+.btn-a-propos {
+  display: block;
+  width: fit-content;
+  margin: 4em auto;
 }

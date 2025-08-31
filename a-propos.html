@@ -1,9 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Robbie Lens - À propos</title>
   </head>
-  <body></body>
+  <body>
+    <header class="flex">
+      <div class="header-logo">
+        <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
+      </div>
+      <nav>
+        <ul class="flex">
+          <li><a href="./index.html">Accueil</a></li>
+          <li><a href="./a-propos.html">À propos</a></li>
+          <li><a href="">Portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-a-propos">
+      <section>
+        <h1 class="title-a-propos">À propos</h1>
+        <div class="container-a-propos">
+          <p>
+            Photographe depuis plus de 5 ans, je réalise des reportages aux
+            photos dynamiques et pertinentes pour vos projets de communication.
+            Créativité, qualité, et sérénité pour vous! Je gère tout, depuis la
+            direction artistique, la réalisation du reportage jusqu'à la
+            livraison de vos photos retouchées, prêtes à l'emploi.
+          </p>
+          <h2 class="subheading-a-propos">Services</h2>
+
+          <ul>
+            <li>Portrait seul ou à plusieurs</li>
+            <li>Shooting mode</li>
+            <li>Retouches sur mesure</li>
+            <li>Développement</li>
+          </ul>
+        </div>
+        <!-- Updated href with correct path -->
+        <a href="#form" class="cta uppercase btn-a-propos"
+          >Voir mon portfolio</a
+        >
+      </section>
+
+      <section>
+        <h2>Tarifs</h2>
+      </section>
+    </main>
+
+    <footer class="flex">
+      <div class="header-logo">
+        <a href="./index.html"><img src="./images/logo.png" alt="logo" /></a>
+      </div>
+      <div class="footer-socials flex">
+        <div>
+          <a href="https://x.com/" target="_blank" rel="noopener noreferrer"
+            ><img src="./images/twitter.png" alt="Twitter logo"
+          /></a>
+        </div>
+        <div>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="./images/instagram.png" alt="Instagram logo"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
