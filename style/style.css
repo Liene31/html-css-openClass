@@ -200,8 +200,27 @@ nav a:hover {
     font-size: 2rem;
   }
 
+  .latest-projects h2 {
+    padding: 1em;
+  }
+
   .latest-projects-img {
     grid-template-columns: 1fr;
+  }
+
+  .latest-projects img {
     width: 100%;
+  }
+
+  .contact-column-container {
+    display: block;
+  }
+
+  form {
+    padding: 0 1em;
+  }
+
+  footer {
+    padding: 1.25em 1em;
   }
 }
